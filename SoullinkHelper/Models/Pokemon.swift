@@ -6,7 +6,7 @@
 //
 
 import Foundation
-struct Pokemon {
+struct Pokemon : Hashable {
     let id: Int;
     let name: String;
     let sprites: Sprites;

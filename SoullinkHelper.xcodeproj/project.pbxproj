@@ -16,6 +16,7 @@
 		FB8D94802944F9D600804B13 /* Sprites.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8D947F2944F9D600804B13 /* Sprites.swift */; };
 		FB8D94822944F9F700804B13 /* TypeElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8D94812944F9F700804B13 /* TypeElement.swift */; };
 		FB8D94842944FA1F00804B13 /* PokemonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8D94832944FA1F00804B13 /* PokemonType.swift */; };
+		FB8D94882944FD0900804B13 /* PokeHelperService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8D94872944FD0900804B13 /* PokeHelperService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		FB8D947F2944F9D600804B13 /* Sprites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sprites.swift; sourceTree = "<group>"; };
 		FB8D94812944F9F700804B13 /* TypeElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeElement.swift; sourceTree = "<group>"; };
 		FB8D94832944FA1F00804B13 /* PokemonType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonType.swift; sourceTree = "<group>"; };
+		FB8D94872944FD0900804B13 /* PokeHelperService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeHelperService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 		FB8408492944D55B007655C1 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				FB8D94872944FD0900804B13 /* PokeHelperService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 			files = (
 				FB84083B2944D529007655C1 /* ContentView.swift in Sources */,
 				FB8D947E2944F99B00804B13 /* Pokemon.swift in Sources */,
+				FB8D94882944FD0900804B13 /* PokeHelperService.swift in Sources */,
 				FB8D94822944F9F700804B13 /* TypeElement.swift in Sources */,
 				FB8D94802944F9D600804B13 /* Sprites.swift in Sources */,
 				FB8D947B2944F3DD00804B13 /* PokeHelperProtocol.swift in Sources */,
