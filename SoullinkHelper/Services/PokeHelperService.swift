@@ -6,17 +6,21 @@
 //
 
 import Foundation
+import PokemonAPI;
+
 public class PokeHelperService : PokeHelperProtocol {
-    
-    func PokeHelperService() {
+    func GetPokemonById(pokemonId: Int) -> PKMPokemon {
         
+        PokemonAPI().pokemonService.fetchPokemon(pokemonId) { result in
+            switch result {
+            case .success(let pokemonData):
+                return pokemonData;
+            }
+        }
     }
     
-    func GetPokemonById(pokeonId: Int) -> Pokemon {
-        <#code#>
-    }
     
-    func GetAllPokemon() -> Dictionary<Int, Pokemon> {
+    func GetAllPokemon() -> Dictionary<Int, PokemonAPI.PKMPokemon> {
         <#code#>
     }
 }

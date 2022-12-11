@@ -6,8 +6,9 @@
 //
 
 import Foundation
+import PokemonAPI
 protocol PokeHelperProtocol {
     
-    func GetPokemonById(pokeonId: Int) -> Pokemon;
-    func GetAllPokemon() -> Dictionary<Int, Pokemon>;
+    func GetPokemonById(pokemonId: Int) -> PKMPokemon;
+    func GetAllPokemon() -> Dictionary<Int, PKMPokemon>;
 }
